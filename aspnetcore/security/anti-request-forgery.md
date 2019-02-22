@@ -178,7 +178,7 @@ Customize [antiforgery options](/dotnet/api/Microsoft.AspNetCore.Antiforgery.Ant
 ```csharp
 services.AddAntiforgery(options => 
 {
-    // Set Cookie properties using CookieBuilder properties†.
+    // Set Cookie properties using CookieBuilder properties.
     options.FormFieldName = "AntiforgeryFieldname";
     options.HeaderName = "X-CSRF-TOKEN-HEADERNAME";
     options.SuppressXFrameOptionsHeader = false;
